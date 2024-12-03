@@ -22,3 +22,9 @@ This provided base project uses Vue, Vite, Laravel and Inertia in a dockerized e
 Feel free to use this project as a template for your assigment (DO NOT FORK this project).
 
 ![Template](./readme/template.jpg)
+
+
+#### Install Project Dependencies 
+
+1. Install composer dependencies <br> `docker compose run --rm dev composer install`
+1. Install npm dependencies <br> `docker compose run --rm dev npm install  --legacy-peer-deps && npm build`
