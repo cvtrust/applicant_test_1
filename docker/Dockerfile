@@ -77,3 +77,8 @@ COPY --from=node /usr/local/include /usr/local/include
 COPY --from=node /usr/local/bin /usr/local/bin
 
 WORKDIR /app
+
+RUN npm install && npm run build
+RUN composer install \
+                     --no-interaction \
+                     --prefer-dist
