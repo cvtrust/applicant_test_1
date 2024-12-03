@@ -19,6 +19,6 @@ and the provided base project.
 
 ### Provided Base Project
 This provided base project uses Vue, Vite, Laravel and Inertia in a dockerized environment.
-Feel free to use this project as a template for your assigment (NOT FORK this project).
+Feel free to use this project as a template for your assigment (DO NOT FORK this project).
 
 ![Template](./readme/template.jpg)
